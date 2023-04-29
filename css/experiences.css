@@ -16,7 +16,7 @@
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 10px;
-    color: var(--main-bg-color);
+    color: var(--secondary-color);
     text-align: center;
 }
 
@@ -25,7 +25,7 @@
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 20px;
-    color: var(--main-bg-color);
+    color: var(--secondary-color);
     text-align: center;
     margin-left: 30px;
     margin-right: 30px;
@@ -43,29 +43,35 @@
     margin: 40px;
     display: flex;
     flex-direction: column;
-    background-color: #f1f1f1;
+    background-color: var(--grey);
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .experiences_card img {
     width: 100%;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
     max-height: 400px
 }
 
 .experiences_card_title {
-    background-color: white;
+    background-color: var(--white);
     padding-bottom: 10px;
     font-size: 1.7rem;
+    color: var(--secondary-color);
+    padding-top: 12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 20px;
+    font-weight: 500;
+    border-bottom: 4px solid var(--main-color);
 }
 
 .experiences_card_info {
     margin: 15px
 }
 
-.experiences_card_info_title{
-    
+.experiences_card_info_title {
+    color: var(--dark-grey)
 }
 
 .experiences_card_info_desc {
@@ -73,8 +79,16 @@
 }
 
 .experiences_card_info_price {
-    text-align: right;
-    margin-top: 10px
+    border-radius: 5px;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: 10px;
+    max-width: 300px;
+    float: right;
+    padding: 10px;
+    font-weight: 700;
+
 }
 
 /* MOBILE */
